@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Godfred Abakah">
+  <meta name="description" content="NexaCalc is a simple, fast and smart calculator built by Godfred Abakah.">
+    <link rel="stylesheet" href="main.css">
+    <title>NexaCalc</title>
+</head>
+
+<body>
+
+  <main class="calculator">
+
+    <header class="calculator-header">
+
+        <div>
+            <h1>NexaCalc</h1>
+            <p>Simple • Fast • Smart</p>
+        </div>
+
+        <button id="themeBtn" class="theme-btn" type="button">
+            ☀️
+        </button>
+
+    </header>
+
+
+    <section class="display">
+
+        <div class="expression" id="expression">
+            Ready
+        </div>
+
+<input
+    type="text"
+    id="display"
+    value="0"
+    readonly
+    inputmode="none"
+    aria-label="Calculator display"
+>
+
+    </section>
+
+
+    <section class="history">
+
+        <div class="history-header">
+
+            <h2>History</h2>
+
+            <button
+                id="clearHistory"
+                type="button">
+                Clear
+            </button>
+
+        </div>
+
+        <div id="historyList">
+
+            <p class="empty-history">
+                No calculations yet
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="buttons">
+
+        <button type="button" class="function">AC</button>
+        <button type="button" class="function">DEL</button>
+        <button type="button" class="function">%</button>
+        <button type="button" class="operator">÷</button>
+
+        <button type="button">7</button>
+        <button type="button">8</button>
+        <button type="button">9</button>
+        <button type="button" class="operator">×</button>
+
+        <button type="button">4</button>
+        <button type="button">5</button>
+        <button type="button">6</button>
+        <button type="button" class="operator">−</button>
+
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button" class="operator">+</button>
+
+        <button type="button" class="zero">0</button>
+        <button type="button">.</button>
+        <button type="button" class="equals">=</button>
+
+    </section>
+
+
+    <footer>
+        NexaCalc • Built by Godfred Abakah
+    </footer>
+
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
