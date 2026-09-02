@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4fff7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#logo {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* Layout for inline radio and checkbox labels */
+fieldset label[for="yes-option"],
+fieldset label[for="no-option"],
+fieldset label[for="ads"],
+fieldset label[for="recommendation"],
+fieldset label[for="location"],
+fieldset label[for="reputation"],
+fieldset label[for="price"] {
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+/* Specific styling for the radio/checkbox container rows */
+fieldset input[type="radio"],
+fieldset input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+textarea {
+  resize: vertical;
+}
